@@ -1,8 +1,9 @@
-# TP 3 :Chiffrement AES vs RSA
+# TP 3 : Chiffrement AES vs RSA
 ## Tableau Comparatif
-| Caracteristique    | AES                                                      |  RSA
-                     - Symetrique                                               - Asymetrique
- Cles                - 1 Seul cle                                               - 2 cles (Publique ET Privee)
- Vitesse             - Tres rapide                                              - Tres  lent
- Taille des donnees  - Illimitee (Par Bloc)                                     - Limitee par la taille de la cle (ex: 256 octets
- Cas d'usage         - Chiffrer de gros fichiers (Disques, bases de donnees)    - Echanger des cles, Signatures numerique
+
+| Caractéristique | AES (Symétrique) | RSA (Asymétrique) |
+|---|---|---|
+| Clés | 1 seule clé secrète | 2 clés (publique + privée) |
+| Vitesse | Très rapide | Très lent |
+| Taille des données | Illimitée par blocs | Limitée |
+| Cas d'usage | Gros fichiers | Échange de clés |
